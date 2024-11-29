@@ -2,6 +2,7 @@ import sqlite3
 import click
 from flask import current_app, g
 
+#Mendefinisikan APK
 def init_app(app):
     app.cli.add_command(init_db_command)
 
